@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { VictoryChart, VictoryLine, VictoryTheme, VictoryContainer, VictoryLegend } from 'victory'
-import { func, fEuler, secondOrder1, secondOrder2, fourthOrder } from './spline'
+import { func, fEuler, secondOrder1, secondOrder2, fourthOrder } from './lab6'
 
 function Chart() {
 
@@ -21,6 +21,26 @@ function Chart() {
                                    name: 'Graph of a function',
                                    symbol: { fill: 'd00f50' },
                                    labels: { fill: 'd00f50' }
+                               },
+                               {
+                                 name: 'Euler',
+                                 symbol: { fill: '0f46d0' },
+                                 labels: { fill: '0f46d0' }
+                               },
+                               {
+                                 name: 'Second order first method',
+                                 symbol: { fill: '2cd00f' },
+                                 labels: { fill: '2cd00f' }
+                               },
+                               {
+                                 name: 'Second order second method',
+                                 symbol: { fill: 'd0bd0f' },
+                                 labels: { fill: 'd0bd0f' }
+                               },
+                               {
+                                 name: 'Fourth order',
+                                 symbol: { fill: '0fd0c0' },
+                                 labels: { fill: '0fd0c0' }
                                }
                            ] }
             />
