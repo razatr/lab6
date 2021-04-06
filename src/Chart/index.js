@@ -15,7 +15,7 @@ function Chart() {
             <VictoryLegend x={ 200 } y={ 50 }
                            orientation="horizontal"
                            gutter={ 20 }
-                           itemsPerRow={2}
+                           itemsPerRow={3}
                            data={ [
                                {
                                    name: 'Graph of a function',
